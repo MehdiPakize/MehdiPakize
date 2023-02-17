@@ -1,15 +1,15 @@
-var firstNumber = 15
-var secondNumber = 15
-var thirdNumber = 3
+var number1 = prompt("please enter your firstNumber")
+var number2 = prompt("please enter your secondNumber")
 
-var plusResult = firstNumber + secondNumber
+var number1TypeNumber = +number1
+var number2TypeNumber = +number2
 
-var minusResult = firstNumber - secondNumber - thirdNumber
+var pluseResult = number1TypeNumber + number2TypeNumber
 
-var divideResult = firstNumber / secondNumber
+var minusResult = number1TypeNumber - number2TypeNumber
 
-var multipliedResult = secondNumber * thirdNumber
+var divideResult = number1TypeNumber / number2TypeNumber
 
-var tavanResult
+var zarbResult = number1TypeNumber * number2TypeNumber
 
-alert(multipliedResult)
+alert(divideResult)
