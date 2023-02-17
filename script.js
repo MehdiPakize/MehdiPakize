@@ -1,12 +1,24 @@
-var siteName = "SabzLearn.ir"
+var firstNumber = +prompt("please Enter your FirstNumber")
+var secondNumber = +prompt("please Enter your secondNumber")
 
-var courseName = 'JavaScript'
+alert(firstNumber + secondNumber)
 
-alert('Site: ' + siteName + "\n " + "Course: " + courseName) // Concat = combiniton somethings
+var thirdNumber = +prompt("please Enter your thirdNumber")
+var fourthNumber = +prompt("please Enter your fourthNumber")
 
-alert("This is \"Javascript\" Course from: " + "SabzLearn.ir")
+alert(thirdNumber - fourthNumber)
 
-var Game = "Tom Clancy "
-var Game1 = "Rainbow six siege"
+var fivethNumber = +prompt("please Enter your fivethNumber")
+var sixthNumber = +prompt("please Enter your sixthNumber")
 
-alert('Creator: ' + Game + "\n" + "Game: " + Game1)
+alert(fivethNumber / sixthNumber)
+
+var seventhNumber = +prompt("please Enter your seventhNumber")
+var eighthNumber = +prompt("please Enter your eighthNumber")
+
+alert(seventhNumber * eighthNumber)
+
+var userName = "Mehdi"
+var familyName = "Pakize"
+
+alert("Name: " + userName + "\n" + "Family: " + familyName)
