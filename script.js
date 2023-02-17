@@ -22,3 +22,17 @@ var userName = "Mehdi"
 var familyName = "Pakize"
 
 alert("Name: " + userName + "\n" + "Family: " + familyName)
+
+var user = "15"
+var num1 = 5
+
+var userNumber = Number(user)
+
+alert(userNumber + num1)
+
+var Name = "M3yT"
+var num2 = 1
+
+var num2String = String(num2)
+
+alert(Name + num2String)
