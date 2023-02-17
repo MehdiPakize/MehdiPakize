@@ -1,15 +1,12 @@
-var number1 = prompt("please enter your firstNumber")
-var number2 = prompt("please enter your secondNumber")
+var siteName = "SabzLearn.ir"
 
-var number1TypeNumber = +number1
-var number2TypeNumber = +number2
+var courseName = 'JavaScript'
 
-var pluseResult = number1TypeNumber + number2TypeNumber
+alert('Site: ' + siteName + "\n " + "Course: " + courseName) // Concat = combiniton somethings
 
-var minusResult = number1TypeNumber - number2TypeNumber
+alert("This is \"Javascript\" Course from: " + "SabzLearn.ir")
 
-var divideResult = number1TypeNumber / number2TypeNumber
+var Game = "Tom Clancy "
+var Game1 = "Rainbow six siege"
 
-var zarbResult = number1TypeNumber * number2TypeNumber
-
-alert(divideResult)
+alert('Creator: ' + Game + "\n" + "Game: " + Game1)
