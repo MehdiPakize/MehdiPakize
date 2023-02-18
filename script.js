@@ -1,22 +1,31 @@
-var num1 = 12
+var userNumber = prompt("Enter your Number: ", 0)
 
-var num2 = 4
-
-var num3 = 3
-
-if (num2 < num3) {
-
-    alert('Thats correct')
-
+if (userNumber % 2 == 0) {
+    
+alert("Yes It Is A EvenNumber" )
 } else{
 
-    alert("you should check your Number again")
-}
-var x = "2,4,6,8,10,12,14,16,18,20,..........,100"
-var y ="1,3,5,7,9,11,13,15,17,19,21,..........,101"
-if ("y = 103" > "x = 102") {
+   alert("No It Is A OddNumber" )
 
-alert("Yes it is EvenNumber")
-} else {
-alert('No it is OddNumber')
 }
+var userString = prompt("Enter your Name: ")
+
+console.log(typeof userString)
+if(typeof userString === "string") {
+
+alert("Your Name is Correct")
+
+} else {
+
+    alert("This It Not A Name.\n Maybe It is A Number \n Please Check Your Name Again")
+
+}
+var userNumber1 = +prompt("Enter your Number: ", 0)
+var userNumber2 = +prompt("Enter your Number: ", 0)
+var userNumber3 = +prompt("Enter your Number: ", 0)
+
+
+ var Sum = userNumber1+userNumber2+userNumber3
+ var Final=Sum / 3
+
+ alert(Final)
