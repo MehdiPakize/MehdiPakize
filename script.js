@@ -1,38 +1,41 @@
-var firstNumber = +prompt("please Enter your FirstNumber")
-var secondNumber = +prompt("please Enter your secondNumber")
+var num1 = 12
 
-alert(firstNumber + secondNumber)
+var num2 = 3
 
-var thirdNumber = +prompt("please Enter your thirdNumber")
-var fourthNumber = +prompt("please Enter your fourthNumber")
+var num3 = 1
 
-alert(thirdNumber - fourthNumber)
+var str2 = "3"
 
-var fivethNumber = +prompt("please Enter your fivethNumber")
-var sixthNumber = +prompt("please Enter your sixthNumber")
+var str3 = "4"
 
-alert(fivethNumber / sixthNumber)
+// alert(num2 == num3)
 
-var seventhNumber = +prompt("please Enter your seventhNumber")
-var eighthNumber = +prompt("please Enter your eighthNumber")
+// alert(num2 * num3 == num1)
 
-alert(seventhNumber * eighthNumber)
+// alert(num3 < num2) 
 
-var userName = "Mehdi"
-var familyName = "Pakize"
+// alert(num2 * num3 > num1)
 
-alert("Name: " + userName + "\n" + "Family: " + familyName)
+// alert(num2 == str2)
 
-var user = "15"
-var num1 = 5
+// alert(num2 === str2)
 
-var userNumber = Number(user)
+// alert(2 === 2)
+var num4 = 5
 
-alert(userNumber + num1)
+var num5 = 4
 
-var Name = "M3yT"
-var num2 = 1
+var num6 = 40 
 
-var num2String = String(num2)
+var num7 = 2
 
-alert(Name + num2String)
+// alert(num4 * num5 == num6 / num7)
+
+var n1 = 0
+var n2 = 4
+var n3 = 6 
+var n4 = 4 
+var n5 = 6
+var n6 = 0
+
+alert( n2 * n3 - n1 == n4 * n5 + n6)
