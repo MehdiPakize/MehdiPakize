@@ -1,41 +1,22 @@
 var num1 = 12
 
-var num2 = 3
+var num2 = 4
 
-var num3 = 1
+var num3 = 3
 
-var str2 = "3"
+if (num2 < num3) {
 
-var str3 = "4"
+    alert('Thats correct')
 
-// alert(num2 == num3)
+} else{
 
-// alert(num2 * num3 == num1)
+    alert("you should check your Number again")
+}
+var x = "2,4,6,8,10,12,14,16,18,20,..........,100"
+var y ="1,3,5,7,9,11,13,15,17,19,21,..........,101"
+if ("y = 103" > "x = 102") {
 
-// alert(num3 < num2) 
-
-// alert(num2 * num3 > num1)
-
-// alert(num2 == str2)
-
-// alert(num2 === str2)
-
-// alert(2 === 2)
-var num4 = 5
-
-var num5 = 4
-
-var num6 = 40 
-
-var num7 = 2
-
-// alert(num4 * num5 == num6 / num7)
-
-var n1 = 0
-var n2 = 4
-var n3 = 6 
-var n4 = 4 
-var n5 = 6
-var n6 = 0
-
-alert( n2 * n3 - n1 == n4 * n5 + n6)
+alert("Yes it is EvenNumber")
+} else {
+alert('No it is OddNumber')
+}
