@@ -1,19 +1,30 @@
-var userBirthDate = +prompt("please Enter your Year Time ")
+var userTime = Number(prompt("Please Enter Your Chosen Time"))
 
-var userAge = 1401 - userBirthDate
+var Time = userTime / 60
 
-if(isNaN(userAge)) {
+if(isNaN(Time)){
 
-alert("Birth Date is Not Correct")
+ alert("Please Enter Your Time Again")
 
+} else{
 
-}else if(userAge <0){
-
-    alert("Please Enter Your Real Birth Date")
+    alert("Your Time is: "+Time + " Hour")
 
 }
-else{
 
-alert("Your Age Is: " + userAge)
+var UserBirthDate = Number(prompt("Please Enter Your Year Time", 1385))
 
+var UserAge = 1401 - UserBirthDate
+
+if(isNaN(UserBirthDate)) {
+    
+    alert("Please Enter Your True Birth Date like: 1385")
+
+  }else if(UserAge <0){
+
+      alert("This Date is Not Correct")
+    }
+    else{
+        
+        alert("Your Birth Date is: " + UserAge)
 }
