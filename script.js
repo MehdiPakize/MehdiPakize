@@ -1,11 +1,19 @@
-var userAge = +prompt("Enter your Age")
+var userBirthDate = +prompt("please Enter your Year Time ")
 
-if(userAge < 18) {
+var userAge = 1401 - userBirthDate
 
-alert("You Dont Have Permission")
+if(isNaN(userAge)) {
 
-} else{
+alert("Birth Date is Not Correct")
 
-alert("You Will Enter In site \n Just A Momment Please")
+
+}else if(userAge <0){
+
+    alert("Please Enter Your Real Birth Date")
+
+}
+else{
+
+alert("Your Age Is: " + userAge)
 
 }
