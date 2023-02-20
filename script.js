@@ -1,10 +1,17 @@
-var UserAge = +prompt("Please Enter your Age")
-var UserGender = prompt("Please Enter your Gender: (Male,FeMale)")
+// var num2 = 4
+// var num3 = 3
 
-if(UserGender == "Female" || UserAge < 18){
+// if(num2 === 3 && num2 * num3 === 12){
+// alert("num2= 3  And Your Answer is True")
+// }else if(num3 === 3 && num2 * num3 === 12){
+//     alert("num3= 4  And Your Answer is True")
+// }else {
+//     alert("Your Answer is Wrong")
+// }
 
-    alert("This Site is Not Good for you")
+////////////////////////
 
-}else {
-    alert("You Have A Permission To Enter This site ")
-}
+var mybool1 = true
+alert("mybool1 = "+ mybool1)
+alert("!mybool1 = "+ !mybool1)
+alert("!!mybool = " + !!mybool1)
