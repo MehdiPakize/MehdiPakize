@@ -1,20 +1,25 @@
+var num1 = 3
 var num2 = 4
-var num3 = 3
 
-num2 * num3 === 12 ?  alert("Yes  3 time 4 = 12") : alert("No The answer is Wrong")
+var num3 = num1 *num2
 
-var N1 = 15
-var N2 = 3
-var N3 = 7
-var N4 = 8
-
-N1 * N2 === 45 || N3 * N4 === 56 ? alert("Your caculation is True") : alert("This is Not true")
-
-var UserNumber1 = +prompt("Please Enter your First Number")
-var UserNumber2 = +prompt("Please Enter your Second Number")
-
-var Final = UserNumber1 * UserNumber2
-UserNumber1 * UserNumber2 % 2 === 0 || UserNumber1 * UserNumber2 % 2 === 2 ? alert("Your Answer Is: "+Final ) : alert("Your Answer is Wrong")
-if(isNaN(Final)){
-    alert("Please Enter your Number Again")
+switch(num3){
+case 10 :
+    alert("Num3 = 10")
+    break;
+    case 11 : 
+    alert("Num3 = 11")
+    break;
+    case 12 :
+    case 15 :
+    alert ("Num3 = 12 or 15")
+    break;
+    case 13 : 
+    alert ("Num3 = 13")
+    break;
+    case 14 : 
+    alert ("Num3 = 14")
+    break;
+    default : alert("Num3 dont have a answer :(")
+    break;
 }
