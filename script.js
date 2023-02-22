@@ -1,23 +1,9 @@
-var showValue = function (){
-    var num1 = 2
-    var num2 = 8 
-    var resultNumber = num1 + num2
-    alert("Your Result is: " + resultNumber)
+ function ShowText(usertext) {
+ alert("Your Parameter is: " + usertext)
+ }
+ ShowText("SabzLearn.ir 0_0")
+function showTwoNumbers (firstNumber, secondNumber){
+    alert("First Parameter: " + firstNumber)
+    alert("Second Parameter: " + secondNumber)
 }
-var sayHi = function(){
-    alert("Hi Good Afternoon :) <3")
-}
-showValue()
-sayHi()
-
-var UserAge = function(){
-   var userSen = +prompt("Please Enter Your Age")
-   if (userSen < 18){
-    alert("You Dont Have Permission")
-   }else if(isNaN(userSen)){
-    alert("Please Try Again ")
-   }else {
-    alert(userSen)
-   }
-}
-UserAge()
+showTwoNumbers(34 , 18)
