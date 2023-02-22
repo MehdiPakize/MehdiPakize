@@ -9,3 +9,15 @@ var sayHi = function(){
 }
 showValue()
 sayHi()
+
+var UserAge = function(){
+   var userSen = +prompt("Please Enter Your Age")
+   if (userSen < 18){
+    alert("You Dont Have Permission")
+   }else if(isNaN(userSen)){
+    alert("Please Try Again ")
+   }else {
+    alert(userSen)
+   }
+}
+UserAge()
