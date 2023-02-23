@@ -34,14 +34,25 @@
 // alert("Your Final Answer Is: " + Result)
 
 
-var Number2 = +prompt("Please Enter your FirstNumber")
-var Number3 = +prompt("Please Enter your SecondNumber")
+// var Number2 = +prompt("Please Enter your FirstNumber")
+// var Number3 = +prompt("Please Enter your SecondNumber")
 
-function Usernumber (Number2,Number3){
-  if(isNaN(Number2&&Number3)){
-    alert("Please Try Again :)")
-  }
-  return Number2 + Number3
+// function Usernumber (Number2,Number3){
+//   if(isNaN(Number2&&Number3)){
+//     alert("Please Try Again :)")
+//   }
+//   return Number2 + Number3
+// }
+// var Final = Usernumber(Number2,Number3)
+// alert("Your Final Answer is: " + Final)
+
+
+var UserName = prompt("Please Enter your Name ")
+var UserLastName = prompt("Please Enter your LastName ")
+
+function UserFullName (UserName,UserLastName){
+return UserName + UserLastName
 }
-var Final = Usernumber(Number2,Number3)
-alert("Your Final Answer is: " + Final)
+var Finalname = UserFullName(UserName,UserLastName)
+alert(UserName + "\n" + UserLastName)
+
