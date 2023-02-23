@@ -1,27 +1,21 @@
+ function sumNumbers (num1 , num2){
+   var result = num1 + num2
+   // alert("Result: " + result)
+   return result
+ }
+ var sumResult = sumNumbers(2,8)
 
-//  function userShowNumber (){
-//     var UserNumber = +prompt("Please Enter Your Number")
-//     if(UserNumber % 2 === 0){
-//      alert("Your Number is: " + UserNumber + " Even Number")
-//     }else if (UserNumber % 2 === 1) {
-//      alert("Your Number is: " + UserNumber + " Odd Number")
-//     }else {
-//      alert("Maybe This is Not A Number Pleas Try Again")
-//     }
-//  }
-//  userShowNumber()
-// function mianginNumber (){
-//   var num1 = 1
-//   var num2 = 2
-//   var num3 = 3
-//   var finalResult = (num1 + num2 + num3) / 3
-//   alert("Your answer is: " + finalResult)
-// }
-// mianginNumber()
+ alert("sumResult: " + sumResult) 
+
+var number1 = prompt("Please Enter your FirstNumber")
+var number2 = prompt("Please Enter your SecondNumber")
 
 
-function SumResult(num1=3 , num2=6){
-var sum = num1 + num2
-alert(sum)
+
+function showPower (num1 ,num2){
+return num1 ** num2 
 }
-SumResult(5)
+
+var powerResult = showPower(number1,number2)
+
+alert("PowerResult = " + powerResult)
