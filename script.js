@@ -47,12 +47,26 @@
 // alert("Your Final Answer is: " + Final)
 
 
-var UserName = prompt("Please Enter your Name ")
-var UserLastName = prompt("Please Enter your LastName ")
+// var UserName = prompt("Please Enter your Name ")
+// var UserLastName = prompt("Please Enter your LastName ")
 
-function UserFullName (UserName,UserLastName){
-return UserName + UserLastName
+// function UserFullName (UserName,UserLastName){
+// return UserName + UserLastName
+// }
+// var Finalname = UserFullName(UserName,UserLastName)
+// alert(UserName + "\n" + UserLastName)
+function Validating (){
+    var validation = true
+    return validation
 }
-var Finalname = UserFullName(UserName,UserLastName)
-alert(UserName + "\n" + UserLastName)
-
+function SumNumbers(num1,num2){
+var sum = num1 + num2
+if(sum > 10){
+    
+    Logger(Validating())
+}
+}
+SumNumbers(8,3)
+function Logger (x){
+    console.log(x)
+}
