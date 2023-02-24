@@ -20,18 +20,18 @@
 
 // alert("PowerResult = " + powerResult)
 
-// var Number1 = prompt("Please Enter your FirstNumber")
-// var Number2 = prompt("Please Enter your SecondNumber")
+ var Number1 = prompt("Please Enter your FirstNumber")
+ var Number2 = prompt("Please Enter your SecondNumber")
 
 
-// function UserNumber (Number1 , Number2){
-// if(isNaN(Number1 && Number2)){
-// alert("Please Try Again")
-// }
-// return Number1 / Number2
-// }
-// var Result = UserNumber(Number1,Number2)
-// alert("Your Final Answer Is: " + Result)
+ function UserNumber (Number1 , Number2){
+ if(isNaN(Number1 && Number2)){
+ alert("Please Try Again")
+ }
+ return Number1 / Number2
+ }
+ var Result = UserNumber(Number1,Number2)
+ alert("Your Final Answer Is: " + Result)
 
 
  var Number2 = +prompt("Please Enter your FirstNumber")
