@@ -70,3 +70,16 @@ SumNumbers(8,3)
 function Logger (x){
     console.log(x)
 }
+// agar adade karbar ba adad 20 yeki bud islogin = true agar is login true bood be ma alret kone welcome
+var UserInput = +prompt("Pleaser Enter Your ID")
+var islogin = false
+function Validate (){
+    islogin = true
+    return islogin
+}
+function User (){
+ if(UserInput == 20){
+ alert("Welcome")
+ }
+}
+User()
