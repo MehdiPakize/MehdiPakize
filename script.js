@@ -7,8 +7,8 @@
 
   alert("sumResult: " + sumResult) 
 
- var number1 = prompt("Please Enter your FirstNumber")
- var number2 = prompt("Please Enter your SecondNumber")
+//  var number1 = prompt("Please Enter your FirstNumber")
+//  var number2 = prompt("Please Enter your SecondNumber")
 
 
 
