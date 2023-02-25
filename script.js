@@ -1,8 +1,8 @@
-//  function sumNumbers (num1 , num2){
-//    var result = num1 + num2
-//    // alert("Result: " + result)
-//    return result
-//  }
+  function sumNumbers (num1 , num2){
+   var result = num1 + num2
+   // alert("Result: " + result)
+    return result
+  }
   var sumResult = sumNumbers(2,8)
 
   alert("sumResult: " + sumResult) 
