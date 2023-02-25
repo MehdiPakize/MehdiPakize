@@ -3,7 +3,7 @@
 //    // alert("Result: " + result)
 //    return result
 //  }
-//  var sumResult = sumNumbers(2,8)
+  var sumResult = sumNumbers(2,8)
 
   alert("sumResult: " + sumResult) 
 
