@@ -5,7 +5,7 @@
 //  }
 //  var sumResult = sumNumbers(2,8)
 
-//  alert("sumResult: " + sumResult) 
+  alert("sumResult: " + sumResult) 
 
  var number1 = prompt("Please Enter your FirstNumber")
  var number2 = prompt("Please Enter your SecondNumber")
