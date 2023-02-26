@@ -6,16 +6,16 @@
 // var User = prompt("Please Enter Your Number")
 
 
-// function userNameValidation (userInputValidationFunction){
-// // baresi vorudi username
-// if(userInputValidationFunction == true){
-//   isLogin = true
+ function userNameValidation (userInputValidationFunction){
+ // baresi vorudi username
+ if(userInputValidationFunction == true){
+   isLogin = true
 
-//   PassWordValidation()
-// }else{
-//   isLogin = false
-// }
-// }
+   PassWordValidation()
+ }else{
+   isLogin = false
+ }
+ }
 
 
  function PassWordValidation (){
