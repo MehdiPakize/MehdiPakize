@@ -18,15 +18,15 @@ if(userInputValidationFunction == true){
 }
 
 
-function PassWordValidation (){
-// baresi dorost budan password
-  var UserPassword = +prompt("Please Enter Your PassWord")
-if(UserPassword == password){
-successLogin()
-}else{
-  BlockLogin()
-}
-}
+// function PassWordValidation (){
+// // baresi dorost budan password
+//   var UserPassword = +prompt("Please Enter Your PassWord")
+// if(UserPassword == password){
+// successLogin()
+// }else{
+//   BlockLogin()
+// }
+// }
 
 
 // function successLogin (){
