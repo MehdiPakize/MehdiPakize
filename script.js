@@ -29,17 +29,17 @@ successLogin()
 }
 
 
-function successLogin (){
-// movafaghiat haye user
-alert("Your Login is successfull")
-}
+// function successLogin (){
+// // movafaghiat haye user
+// alert("Your Login is successfull")
+// }
 
 
 
-function BlockLogin (){
-// failed dadan login
-alert("Afghani PassWord Eshtebahe")
-}
+// function BlockLogin (){
+// // failed dadan login
+// alert("Afghani PassWord Eshtebahe")
+// }
 
 
 // let CheckisLoginValidation = (Value,Valuetarget) => {
