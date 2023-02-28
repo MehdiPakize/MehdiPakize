@@ -18,15 +18,15 @@ if(userInputValidationFunction == true){
 }
 
 
-// function PassWordValidation (){
-// // baresi dorost budan password
-//   var UserPassword = +prompt("Please Enter Your PassWord")
-// if(UserPassword == password){
-// successLogin()
-// }else{
-//   BlockLogin()
-// }
-// }
+function PassWordValidation (){
+// baresi dorost budan password
+  var UserPassword = +prompt("Please Enter Your PassWord")
+if(UserPassword == password){
+successLogin()
+}else{
+  BlockLogin()
+}
+}
 
 
 function successLogin (){
@@ -42,14 +42,14 @@ alert("Afghani PassWord Eshtebahe")
 }
 
 
-let CheckisLoginValidation = (Value,Valuetarget) => {
-var isLoginValue = null
-if(Value==Valuetarget){
-isLoginValue = true
-}else{
-  isLoginValue = false
-}
-return isLoginValue
-}
+// let CheckisLoginValidation = (Value,Valuetarget) => {
+// var isLoginValue = null
+// if(Value==Valuetarget){
+// isLoginValue = true
+// }else{
+//   isLoginValue = false
+// }
+// return isLoginValue
+// }
 
-userNameValidation (CheckisLoginValidation(User,UserName))
+// userNameValidation (CheckisLoginValidation(User,UserName))
