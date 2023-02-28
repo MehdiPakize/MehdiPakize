@@ -6,33 +6,33 @@ var password = 123
 var User = prompt("Please Enter Your Number")
 
 
-function userNameValidation (userInputValidationFunction){
-// baresi vorudi username
-if(userInputValidationFunction == true){
-  isLogin = true
+// function userNameValidation (userInputValidationFunction){
+// // baresi vorudi username
+// if(userInputValidationFunction == true){
+//   isLogin = true
 
-  PassWordValidation()
-}else{
-  isLogin = false
-}
-}
-
-
-function PassWordValidation (){
-// baresi dorost budan password
-  var UserPassword = +prompt("Please Enter Your PassWord")
-if(UserPassword == password){
-successLogin()
-}else{
-  BlockLogin()
-}
-}
+//   PassWordValidation()
+// }else{
+//   isLogin = false
+// }
+// }
 
 
-function successLogin (){
-// movafaghiat haye user
-alert("Your Login is successfull")
-}
+// function PassWordValidation (){
+// // baresi dorost budan password
+//   var UserPassword = +prompt("Please Enter Your PassWord")
+// if(UserPassword == password){
+// successLogin()
+// }else{
+//   BlockLogin()
+// }
+// }
+
+
+// function successLogin (){
+// // movafaghiat haye user
+// alert("Your Login is successfull")
+// }
 
 
 
