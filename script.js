@@ -42,14 +42,15 @@
 // }
 
 
-// let CheckisLoginValidation = (Value,Valuetarget) => {
-// var isLoginValue = null
-// if(Value==Valuetarget){
-// isLoginValue = true
-// }else{
-//   isLoginValue = false
-// }
-// return isLoginValue
-// }
+ let CheckisLoginValidation = (Value,Valuetarget) => {
+    //.
+ var isLoginValue = null
+ if(Value==Valuetarget){
+ isLoginValue = true
+ }else{
+   isLoginValue = false
+ }
+ return isLoginValue
+ }
 
-// userNameValidation (CheckisLoginValidation(User,UserName))
+ userNameValidation (CheckisLoginValidation(User,UserName))
