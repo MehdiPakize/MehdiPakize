@@ -36,10 +36,10 @@
 
 
 
-// function BlockLogin (){
-// // failed dadan login.
-// alert("Afghani PassWord Eshtebahe")
-// }
+ function BlockLogin (){
+ // failed dadan login./
+ alert("Afghani PassWord Eshtebahe")
+ }
 
 
  let CheckisLoginValidation = (Value,Valuetarget) => {
