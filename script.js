@@ -43,7 +43,7 @@
 
 
  let CheckisLoginValidation = (Value,Valuetarget) => {
-    //.
+    //..
  var isLoginValue = null
  if(Value==Valuetarget){
  isLoginValue = true
