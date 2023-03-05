@@ -1,4 +1,4 @@
-// ye meghdari ro az karbari migirim ke agar meghdaresh ba meghdar user name/. barabar bood is login beshe true,. function welcome run beshe, agar barabar nabood function try again anjam beshe
+// ye meghdari ro az karbari migirim ke agar meghdaresh ba meghdar user name/. barabar bood is login beshe true,/. function welcome run beshe, agar barabar nabood function try again anjam beshe
  var UserName = "ali"
  var isLogin = false
  var password = 123
@@ -8,7 +8,7 @@
 
  function userNameValidation (userInputValidationFunction){
  // baresi vorudi username./..
- 
+
  if(userInputValidationFunction == true){
    isLogin = true
 
