@@ -31,14 +31,14 @@
 
 
  function successLogin (){
- // movafaghiat haye user....
+ // movafaghiat haye user.../
  alert("Your Login is successfull")
  }
 
 
 
  function BlockLogin (){
- // failed dadan login./..
+ // failed dadan login./...
  alert("Afghani PassWord Eshtebahe")
  }
 
