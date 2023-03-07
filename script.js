@@ -38,7 +38,7 @@
 
 
  function BlockLogin (){
- // failed dadan login./...
+ // failed dadan login././
  alert("Afghani PassWord Eshtebahe")
  }
 
