@@ -7,7 +7,7 @@
 
 ``
  function userNameValidation (userInputValidationFunction){
- // baresi vorudi username//.
+ // baresi vorudi username//..
 
  if(userInputValidationFunction == true){
    isLogin = true
