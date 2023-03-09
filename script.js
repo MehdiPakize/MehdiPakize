@@ -5,7 +5,7 @@
 
  var User = prompt("Please Enter Your Number")
 
-
+``
  function userNameValidation (userInputValidationFunction){
  // baresi vorudi username../
 
@@ -38,7 +38,7 @@
 
 
  function BlockLogin (){
- // failed dadan login././
+ // failed dadan login././/
  alert("Afghani PassWord Eshtebahe")
  }
 
