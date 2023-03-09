@@ -20,7 +20,7 @@
 
 
  function PassWordValidation (){
- // baresi dorost budan password.y.
+ // baresi dorost budan password.y./
    var UserPassword = +prompt("Please Enter Your PassWord")
  if(UserPassword == password){
  successLogin()
